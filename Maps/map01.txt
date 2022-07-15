@@ -1,0 +1,43 @@
+//-----------------------------MAP----------------------------------------------
+#define mapX  10      //map width
+#define mapY  10      //map height
+#define mapS  100     //map area
+int mapWallArray[]=				//Map Array. 0 is no wall, 1 is checkerboard, 2 is backrooms wall, 3 is blank, 4 is door, 5 is alt door, 6 is blank but darker
+{
+ 2,2,2,2,2,2,2,1,1,1,
+ 2,0,0,0,0,0,2,0,0,1,
+ 2,0,0,0,3,0,2,0,0,1,
+ 2,0,0,0,3,0,2,0,0,1,
+ 2,0,0,0,4,0,2,0,0,1,
+ 2,0,0,0,3,0,2,0,0,1,
+ 2,0,0,0,3,0,2,5,5,1,
+ 2,0,0,0,3,0,0,0,0,1,
+ 2,0,0,0,3,0,0,0,0,1,
+ 2,2,2,2,3,1,1,1,1,1,
+};
+int mapFloorArray[]=			//Floor Texture Array. 0 is Checkerboard, 1 is Backrooms wall, 2 is black, 3 is door (do not use), 4 is alt door, 5 is blank
+{
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+};
+int mapCeilingArray[]=			//Ceiling Texture Array. 0 is Checkerboard, 1 is Backrooms wall, 2 is black, 3 is door (do not use), 4 is alt door, 5 is blank
+{
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+ 5,5,5,5,5,5,5,5,5,5,
+};
