@@ -56,7 +56,7 @@ void playMidi()
 
 	//Soundfont Loading
 	
-	int sfont_id = fluid_synth_sfload(synth, "../Sounds/soundFont.sf2", 1);
+	int sfont_id = fluid_synth_sfload(synth, "./Sounds/soundFont.sf2", 1);
 	if(sfont_id == FLUID_FAILED)
 	{
 		int sfontError = MessageBoxA(
@@ -75,7 +75,7 @@ void playMidi()
 	}
 
 	//Midi file loading
-	int midiLoad = fluid_player_add(player, "../Sounds/D_BKROOM.mid");
+	int midiLoad = fluid_player_add(player, "./Sounds/D_BKROOM.mid");
 
 	if(midiLoad == FLUID_FAILED)
 	{
