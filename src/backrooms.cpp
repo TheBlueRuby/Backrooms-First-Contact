@@ -59,10 +59,10 @@ void playMidi()
 	int sfont_id = fluid_synth_sfload(synth, "../Sounds/soundFont.sf2", 1);
 	if(sfont_id == FLUID_FAILED)
 	{
-		int sfontError = MessageBoxW(
+		int sfontError = MessageBoxA(
 						 NULL,
-				(LPCWSTR)"The soundfont couldn't be loaded!\nCheck if you have a file called \"soundFont.sf2\" in the Sounds folder.\nThe game will still run, but without any music. Are you sure you want to continue?\nClick No to quit the program.",
-				(LPCWSTR)"Backrooms First Contact ERROR",
+				(LPCSTR)"The soundfont couldn't be loaded!\nCheck if you have a file called \"soundFont.sf2\" in the Sounds folder.\nThe game will still run, but without any music. Are you sure you want to continue?\nClick No to quit the program.",
+				(LPCSTR)"Backrooms First Contact ERROR",
 						 MB_ICONERROR | MB_YESNO
 				  );
     	switch (sfontError)
@@ -79,10 +79,10 @@ void playMidi()
 
 	if(midiLoad == FLUID_FAILED)
 	{
-		int midiError = MessageBoxW(
+		int midiError = MessageBoxA(
 						 NULL,
-				(LPCWSTR)"The midi file couldn't be loaded!\nCheck if you have a file called \"D_BKROOM.mid\" in the Sounds folder.\nThe game will still run, but without any music. Are you sure you want to continue?\nClick No to quit the program.",
-				(LPCWSTR)"Backrooms First Contact ERROR",
+				(LPCSTR)"The midi file couldn't be loaded!\nCheck if you have a file called \"D_BKROOM.mid\" in the Sounds folder.\nThe game will still run, but without any music. Are you sure you want to continue?\nClick No to quit the program.",
+				(LPCSTR)"Backrooms First Contact ERROR",
 						 MB_ICONERROR | MB_YESNO
 				  );
     	switch (midiError)
