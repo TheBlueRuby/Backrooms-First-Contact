@@ -8,7 +8,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
                 "-std=c++0x",
                 "-m32",
                 "-pthread",
