@@ -5,7 +5,7 @@ PC port by TheBlueRuby
 Original scratch version by BixBox
 
 ## INSTALLATION
-1. Download the zip from the github page (https://github.com/TheBlueRuby/backrooms-first-contact/releases)
+1. Download the zip from this github page (https://github.com/TheBlueRuby/backrooms-first-contact/releases)
 2. Extract the files from the zip
 3. Open backrooms.exe
 
