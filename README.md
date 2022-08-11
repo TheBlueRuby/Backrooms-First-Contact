@@ -41,6 +41,7 @@ Window cannot be resized or fullscreened
 
 ## MODDING
 See MODDING.md
+Also see my MiteEngine1 repo for a simplified version
 
 ---
 
@@ -54,10 +55,10 @@ https://www.youtube.com/watch?v=H4dGpz6cnHo
 Backrooms: First Contact Demo (original scratch version) by BixBox (ported with permission)
 https://scratch.mit.edu/projects/695051017
 
+> BixBox credits Griffpatch for the scratch raycasting tutorial
+
 OpenGL Raycasting tutorial by 3DSage
 https://www.youtube.com/c/3DSage
-
-> BixBox credits Griffpatch for the scratch raycasting tutorial
 
 Backrooms: First Contact Demo (OpenGL Port) by TheBlueRuby
 
