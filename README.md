@@ -25,13 +25,13 @@ D or →		  - Turn Right
 E or spacebar - Open a door
 	
 ### GAMEPLAY BASICS
-The title screen will transition into the game after 3 seconds
-Survive for as long as you can without entity 3 (the smiler) killing you
-The map is small, but explore as much as you can
-The entity kills on touch - Avoid it if possible
-If you die, a death screen will appear for 3 seconds. You will then restart
-If you survive for long enough (30 seconds in the demo) you will get a demo end screen, then restart.
-To quit the game, click the X icon in the top right corner of the window
+- The title screen will transition into the game after 3 seconds
+- Survive for as long as you can without entity 3 (the smiler) killing you
+- The map is small, so stay alert
+- The entity kills on touch \- Avoid it if possible
+- If you die, a death screen will appear for 3 seconds. You will then restart
+- If you survive for long enough (30 seconds in the demo) you will get a demo end screen, then restart.
+- To quit the game, click the X icon in the top right corner of the window or hit Alt\-F4
 
 ---
 
