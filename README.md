@@ -37,11 +37,13 @@ E or spacebar - Open a door
 
 ## NOTES
 Working on expanding map and adding mouselook
+
 Window cannot be resized or fullscreened
 
 ## MODDING
 See MODDING.md
-Also see my MiteEngine1 repo for a simplified version
+
+Also see my MiteEngine1 repo for a simplified version of this in a header file
 
 ---
 
